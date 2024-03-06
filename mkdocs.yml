@@ -1,0 +1,13 @@
+site_name: Dilos Software Development
+site_description: Dilos Software Development is group of Software Engineers who like to write useful code.
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
